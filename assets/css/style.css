@@ -619,6 +619,7 @@ section {
   font-weight: 700;
   position: relative;
   padding-bottom: 15px;
+  margin-top: -20px;
 }
 
 .section-header h3::before {
@@ -629,7 +630,7 @@ section {
   height: 1px;
   background: #ddd;
   bottom: 1px;
-  left: calc(50% - 60px);
+  /* left: calc(50% - 60px); */
 }
 
 .section-header h3::after {
@@ -640,7 +641,7 @@ section {
   height: 3px;
   background: #18d26e;
   bottom: 0;
-  left: calc(50% - 20px);
+  /* left: calc(50% - 20px); */
 }
 
 .section-header p {
@@ -648,7 +649,16 @@ section {
   padding-bottom: 30px;
   color: #333;
 }
-
+.section-header .left-underline{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #18d26e;
+  bottom: 0;
+  left: 20%;
+}
 /* Section with background
 --------------------------------*/
 .section-bg {
