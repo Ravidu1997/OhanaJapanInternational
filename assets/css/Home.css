@@ -442,23 +442,6 @@ button.ghost {
 	box-sizing: border-box;
 }
 
-.social-container {
-	margin: 20px 0;
-	box-sizing: border-box;
-}
-
-.social-container a {
-	border: 1px solid #DDDDDD;
-	border-radius: 50%;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 5px;
-	height: 40px;
-	width: 40px;
-	box-sizing: border-box;
-}
-
 .d {
 	position: fixed;
 	height: 300px;
@@ -466,15 +449,6 @@ button.ghost {
 	left: 0;
 	right: 0;
 	backdrop-filter:blur(15px);
-}
-
-.abcdef{
-	font-family: 'Montserrat', sans-serif;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	  margin-right:20%;
 }
 
   
